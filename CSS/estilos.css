@@ -426,7 +426,24 @@ input[type="submit"] {
 }#contacto h2 .h2-informacion{
   margin-top: 0;
 }
+/*WHATSAPP*/
+#whatsapp a{
+  background: none;
+  position: fixed;
+  float: right;
+  top: 85%;
+  right: 1%;
+  z-index: 2;
+  transform: scale(.8);
+  transition: 1s;
+}
 
+#whatsapp a:hover {
+    transition: 1s;
+    transform: scale(1);
+}
+
+/*FOOTER*/
 footer{
   background: #161616;
   color: #666;
