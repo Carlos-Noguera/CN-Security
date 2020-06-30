@@ -471,10 +471,10 @@ footer span{
   color:#999
 }
 .menu-icon{
-  display:none;
+  display: none;
 }
 /*RESPONSIVE*/
-@media (max-width: 480px){
+@media screen and (max-width: 480px){
   nav {
     position: absolute;
     top: 100%;
@@ -527,9 +527,7 @@ footer span{
   .contenedor-main {
     margin-left: 0;
   }
-  #servicios{
-    padding-top: 50px;
-  }
+  
   #servicios .contenedor{
     flex-direction: column;
   }
@@ -551,6 +549,7 @@ footer span{
   }
   .contenedor-servicios-2 #cuatro {
     margin-top: 110px;
+    margin-bottom: 0;
   }
   #caracteristicas .contenedor {
     flex-direction: column;
@@ -571,22 +570,21 @@ footer span{
   #capacitaciones .tabla{
     margin-bottom: 50px;
   }
-  #beneficios{
-    padding-top: 20px;
+  #capacitaciones #tres{
+    margin-bottom: 0;
   }
   #beneficios .contenedor {
     flex-direction: column;
   }
-  #beneficios .titular, #beneficios .imagen {
+  #beneficios .titular {
     width: 100%;
     margin-right: 0;
   }
-  #beneficios i {
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    line-height: 25px;
-}
+  #beneficios .imagen{
+    width: 50%;
+    margin-right: 0;
+  }
+  
 #contacto .contenedor-form{
   flex-direction: column;
 }
