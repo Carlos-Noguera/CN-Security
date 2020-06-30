@@ -144,7 +144,7 @@ header .imagen img {
 }
 #servicios .boton {
   background: #2970fa;
-  padding: 15px 38px;
+  padding: 15px 30px;
   letter-spacing: 1px;
   border-radius: 10px;
   color: #fff;
@@ -332,7 +332,7 @@ header .imagen img {
   color: #fff;
   border-radius: 50%;
   width: 25px;
-  height: 25%;
+  height: 25px;
   text-align: center;
   line-height: 25px;
 }
@@ -469,4 +469,139 @@ footer .redes i{
 footer span{
   font-weight: bold;
   color:#999
+}
+.menu-icon{
+  display:none;
+}
+/*RESPONSIVE*/
+@media (max-width: 480px){
+  nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #232220;
+    width: 100%;
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 23px 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 65px;
+  }
+
+  header .contenedor-inicio{
+    flex-direction: column;
+  }
+  header .titular, header .imagen {
+    width: 100%;
+  }
+  header .imagen{
+    margin: 0;
+  }
+  header .imagen img{
+  height: 300px;
+  }
+  header .logo{
+    margin-left: -15px;
+  }
+  header h1{
+    font-size: 30px;
+  }
+  main .contenedor-main{
+    flex-direction: column;
+  }
+  .contenedor-main span {
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+  .contenedor-main {
+    margin-left: 0;
+  }
+  #servicios{
+    padding-top: 50px;
+  }
+  #servicios .contenedor{
+    flex-direction: column;
+  }
+  #servicios .titular{
+    width: 100%;
+  }
+  #servicios h3, #caracteristicas h3, #capacitaciones h3, #beneficios h3 {
+    font-size: 24px;
+  }
+  #servicios #uno {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  #servicios .servicio {
+    width: 82%;
+  }
+  .contenedor-servicios-2 #dos {
+    top: 57px;
+  }
+  .contenedor-servicios-2 #cuatro {
+    margin-top: 110px;
+  }
+  #caracteristicas .contenedor {
+    flex-direction: column;
+  }
+  #caracteristicas .titular {
+    width: 100%;
+    margin-right: 0;
+  }
+  #caracteristicas .imagen {
+    width: 100%;
+  }
+  #caracteristicas .imagen img{
+    width: 336px;
+  }
+  #capacitaciones .capacitaciones-precios{
+    flex-direction: column;
+  }
+  #capacitaciones .tabla{
+    margin-bottom: 50px;
+  }
+  #beneficios{
+    padding-top: 20px;
+  }
+  #beneficios .contenedor {
+    flex-direction: column;
+  }
+  #beneficios .titular, #beneficios .imagen {
+    width: 100%;
+    margin-right: 0;
+  }
+  #beneficios i {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+#contacto .contenedor-form{
+  flex-direction: column;
+}
+#contacto form{
+  width: 100%;
+}
+#contacto .informacion{
+  width: 100%;
+}
+footer .contenedor{
+  flex-direction: column;
+  width: 90%;
+}
+footer .copy{
+  font-size: 11px;
+}
+ 
 }

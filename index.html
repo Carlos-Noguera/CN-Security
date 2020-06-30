@@ -26,6 +26,7 @@
       <div class="menu">
         <div class="contenedor">
           <p class="logo">CN-Security</p>
+          <img class="menu-icon" src="imagenes/menu.png" alt="" />
           <nav>
             <ul>
               <li><a href="">Inicio</a></li>
@@ -96,7 +97,7 @@
       <div class="contenedor contenedor-servicios-2">
         <div class="servicio">
           <img src="imagenes/safe.png" alt="" />
-          <h4>Servicio 3</h4>
+          <h4>Servicio 2</h4>
           <p>
             Tu contenido va aquí. Edite o elimine este texto en línea o en la
             configuración de Contenido del módulo. También puede diseñar cada
@@ -108,7 +109,7 @@
         </div>
         <div class="servicio" id="dos">
           <img src="imagenes/safe.png" alt="" />
-          <h4>Servicio 2</h4>
+          <h4>Servicio 3</h4>
           <p>
             Tu contenido va aquí. Edite o elimine este texto en línea o en la
             configuración de Contenido del módulo. También puede diseñar cada
@@ -118,7 +119,7 @@
           </p>
           <a href="">CLIC AQUÍ</a>
         </div>
-        <div class="servicio">
+        <div class="servicio" id="cuatro">
           <img src="imagenes/safe.png" alt="" />
           <h4>Servicio 4</h4>
           <p>
@@ -214,7 +215,7 @@
     <section id="beneficios">
       <div class="contenedor">
         <div class="imagen">
-          <img src="imagenes/beneficios.png" alt="">
+          <img src="imagenes/beneficios.png" alt="" />
         </div>
         <div class="titular">
           <h2>BENEFICIOS</h2>
@@ -254,8 +255,16 @@
         <div class="contenedor-form">
           <form action="" method="post">
             <input type="text" placeholder="Nombre" name="nombre" />
-            <input type="email"placeholder="Correo Electronico"name="correo"/>
-            <input type="tel" placeholder="Número de contacto" name="telefono"/>
+            <input
+              type="email"
+              placeholder="Correo Electronico"
+              name="correo"
+            />
+            <input
+              type="tel"
+              placeholder="Número de contacto"
+              name="telefono"
+            />
             <textarea placeholder="Mensaje" name="mensaje"></textarea>
             <input type="submit" value="ENVIAR" />
           </form>
@@ -283,17 +292,19 @@
       </div>
     </section>
 
-	<section id="whatsapp">
-		<a href="https://wa.me/525538595685" target="_blank">
-			<img src="imagenes/whatsapp.png">
-		</a>
-	</section>
-
+    <section id="whatsapp">
+      <a href="https://wa.me/525538595685" target="_blank">
+        <img src="imagenes/whatsapp.png" />
+      </a>
+    </section>
 
     <footer>
       <div class="contenedor">
         <div class="copy">
-          <p>Designed by <span> CN-Securiy</span> | Powered by <span> Carlos Noguera</span> 2020</p>
+          <p>
+            Designed by <span> CN-Securiy</span> | Powered by
+            <span> Carlos Noguera</span> 2020
+          </p>
         </div>
         <div class="redes">
           <ul>
@@ -306,5 +317,10 @@
         </div>
       </div>
     </footer>
+    <script>
+      $(".menu-icon").on("click", function () {
+        $("nav").slideToggle();
+      });
+    </script>
   </body>
 </html>
