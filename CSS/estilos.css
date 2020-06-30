@@ -603,3 +603,73 @@ footer .copy{
 }
  
 }
+
+/*RESPONSIVE TABLETA*/
+@media(min-width:700px) and (max-width:900px){
+    header{
+        height: 53vh;
+        width: auto;
+    }
+    .contenedor-main span {
+    margin: 0px 20px 0 0; 
+    }
+    .contenedor-main {
+    margin-left: 0px;  
+	}
+	#servicios .contenedor{
+    flex-direction: column;
+  }
+  #servicios .titular{
+    width: 100%;
+  }
+  #servicios h3, #caracteristicas h3, #capacitaciones h3, #beneficios h3 {
+    font-size: 35px;
+  }
+  #servicios .boton {
+    
+    padding: 15px 20px;
+    
+ 
+}
+  #servicios #uno {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  #servicios .servicio {
+    width: 92%;
+  }
+  .contenedor-servicios-2 #dos {
+    top: 57px;
+  }
+  .contenedor-servicios-2 #cuatro {
+    margin-top: 110px;
+    margin-bottom: 0;
+  }
+
+  #caracteristicas .titular , #caracteristicas .imagen{
+    width: 50%;
+    margin-right: 0;
+}
+#caracteristicas img{
+	width: 350px;
+}
+#caracteristicas .contenedor{
+	align-items: center;
+}
+
+.tabla{
+	margin: auto;
+	width: 40%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.capacitaciones-precios{
+	flex-direction: column;
+}
+
+#contacto form{
+	margin-right: 80px
+}
+}
+  
+   
