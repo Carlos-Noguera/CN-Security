@@ -473,7 +473,7 @@ footer span{
 .menu-icon{
   display: none;
 }
-/*RESPONSIVE*/
+/*RESPONSIVE MOBILE*/
 @media screen and (max-width: 480px){
   nav {
     position: absolute;
@@ -601,7 +601,9 @@ footer .contenedor{
 footer .copy{
   font-size: 11px;
 }
- 
+footer .redes ul{
+  margin-top: 0;
+} 
 }
 
 /*RESPONSIVE TABLETA*/
@@ -670,6 +672,40 @@ footer .copy{
 #contacto form{
 	margin-right: 80px
 }
+nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #232220;
+  width: 100%;
+  display: none;
+}
+
+nav ul li {
+  display: block;
+  margin: 23px 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+.menu-icon {
+  display: block;
+  position: absolute;
+  right: 65px;
+}
+footer .contenedor{
+  flex-direction: column;
+  width: 90%;
+}
+footer .copy{
+  font-size: 11px;
+}
+footer .redes ul{
+  margin-top: 0;
+} 
+
 }
   
    
